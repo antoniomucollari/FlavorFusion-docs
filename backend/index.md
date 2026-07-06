@@ -14,7 +14,6 @@ com.toni.FoodApp
 ```
 
 ## Current Backend Scope
-![High-level backend architecture](https://cdn.antoniomucollari.com/foodAppDocs/wholeArchitecture.png)
 
 Implemented backend areas:
 

@@ -1,5 +1,5 @@
 # Main technologies used:
-
+![High-level backend architecture](https://cdn.antoniomucollari.com/foodAppDocs/wholeArchitecture.png)
 Flavor Fusion uses a monolithic architecture with Spring Boot for the backend, React for the frontend, and Kotlin for the mobile delivery driver app.
 It uses a relational database design with PostgreSQL and the PostGIS extension, together with Redis as an ultra-fast in-memory data store.
 Hosting is done on a virtual machine in Azure. AWS is also used for CDN delivery through an S3 bucket and CloudFront.
