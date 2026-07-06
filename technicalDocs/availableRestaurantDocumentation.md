@@ -83,7 +83,7 @@ public void rebuildGeoIndexOnStartup() {
     geoOps.add(REDIS_GEO_KEY, locations);
 }
 ```
-```terminal
+```text
 2026-05-09T13:07:18.431+02:00  INFO 25576 --- [FoodApp] [           main] c.t.F.r.service.BranchServiceImpl        : --- Rebuilding Redis index on startup ---
 ```
 

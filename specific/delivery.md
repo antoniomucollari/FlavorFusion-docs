@@ -112,9 +112,12 @@ when order will be ready it will apear in `ready for pickup`: http://localhost:8
 the delivery here can only do two things change the status to `on-the-way`
 http://localhost:8080/api/orders/update-status
 source:
-```{"id":9,"orderStatus":"ON_THE_WAY"}```
+```json
+{"id":9,"orderStatus":"ON_THE_WAY"}
+```
 response:
-```{
+```json
+{
     "statusCode": 200,
     "message": "Order updated successfully.",
     "data": {

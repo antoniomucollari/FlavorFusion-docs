@@ -7,6 +7,7 @@ It focuses on the details of the ordering process, carefully handling practical 
 ### What I learned from this project
 * Building stateless platform production ready. 
 * Scaling it with distributed machines.
+* Load testing with k6.
 * Web Scarping
 * Hoisting & Cloud & Cloud Security
 * Caching
