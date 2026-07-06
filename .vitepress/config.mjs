@@ -31,6 +31,7 @@ export default defineConfig({
             ]
           },
 
+          { text: 'Admin Capabilities', link: '/technicalDocs/adminCapabilities.md' },
           { text: 'Gemini overview', link: '/technicalDocs/gemini3flash.md' }
         ]
       },
