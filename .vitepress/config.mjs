@@ -21,14 +21,15 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Introduction',
-        collapsed: true,
+        text: 'Flavor Fusion Docs',
+        collapsed: false,
         items: [
           { text: 'Quick Start', link: '/introduction/quick-start' },
           { text: 'Architecture Overview', link: '/introduction/architectureOverview' },
           {
             text: 'Backend',
             link: '/backend/',
+            collapsed: false,
             items: [
               { text: 'Backend Overview', link: '/backend/' },
               { text: 'Setup', link: '/backend/setup' },
@@ -43,6 +44,7 @@ export default defineConfig({
           },
           {
             text: 'Available Restaurants', link: '/technicalDocs/availableRestaurantDocumentation.md',
+            collapsed: false,
             items: [
               { text: 'Caching Restaurants', link: '/technicalDocs/RestaurantCaching/availableRestaurantDocumentation.md' }
             ]

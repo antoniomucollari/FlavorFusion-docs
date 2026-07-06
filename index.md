@@ -6,20 +6,27 @@ hero:
   name: "Flavor Fusion documentation"
   text: ""
   tagline: ""
+
   actions:
     - theme: brand
+      text: Start here
+      link: /introduction/quick-start.html
+
+    - theme: alt
       text: Load test results
       link: /backend/load-testing
-    - theme: brand
-      text: Backend docs
-      link: /backend/
-      
+
+    - theme: alt
+      text: Demo website
+      link: https://foodapp.antoniomucollari.com/
 
 features:
   - title: Load tested customer journey
-    details: k6 simulated login, profile, delivery location, discovery, search, menu, cart, basket, and checkout with a peak of 1,451 virtual users.
-  - title: Strong reliability under pressure
-    details: The run completed 67,761 HTTP requests at about 616 requests/second with 99.95% successful checks and only 0.06% HTTP failures.
-  - title: Honest optimization target
-    details: The reliability threshold passed, while the strict p95 latency target failed at 1.43s, giving a clear next performance target.
+    details: k6 simulated an identical customer flow and reached a peak of 1,451 virtual users live.
+
+  - title: Location-aware discovery
+    details: Restaurants and branches are filtered using delivery location, distance calculations, geospatial data, cached lookup flows, and map-based delivery support.
+
+  - title: Production-ready features
+    details: WebSocket updates, delivery status changes, branch dashboards, admin tools, notifications, and background jobs help keep orders and operational views synchronized.
 ---
