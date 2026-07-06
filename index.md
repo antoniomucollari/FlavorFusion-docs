@@ -13,9 +13,6 @@ hero:
     - theme: brand
       text: Backend docs
       link: /backend/
-    - theme: brand
-      text: Quick start
-      link: /api-examples
       
 
 features:

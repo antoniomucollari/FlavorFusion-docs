@@ -50,13 +50,6 @@ export default defineConfig({
 
           { text: 'Admin Capabilities', link: '/technicalDocs/adminCapabilities.md' },
         ]
-      },
-      {
-        text: 'Cloud Security',
-        collapsed: true,
-        items: [
-          { text: 'Quick Start', link: '/cloudSecurity/main.md' },
-        ]
       }
     ],
 
