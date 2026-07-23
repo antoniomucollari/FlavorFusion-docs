@@ -1,6 +1,6 @@
 # Restaurant Caching
 
-[Pyramid of caching](cachingPyramid.png){target="_blank"}\
+[Pyramid of caching](https://cdn.antoniomucollari.com/Picture1.png){target="_blank"}\
 This platform is heavy featured with caching for the restaurants & venues. All caching is done in redis keeping the backend stateless.
 Let's start from level two caching which is distanceMatrix:
 ## DistanceMatrix 
