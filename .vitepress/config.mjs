@@ -15,8 +15,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Load Test', link: '/backend/load-testing' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Load Test', link: '/backend/load-testing' }
     ],
 
     sidebar: [
