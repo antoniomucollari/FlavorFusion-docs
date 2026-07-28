@@ -50,6 +50,7 @@ export default defineConfig({
           },
 
           { text: 'Admin Capabilities', link: '/technicalDocs/adminCapabilities.md' },
+          { text: 'Data Ingestion & Scraping', link: '/scraping documentation.md' },
         ]
       }
     ],
