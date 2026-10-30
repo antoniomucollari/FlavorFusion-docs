@@ -1,17 +1,35 @@
 import { defineConfig } from 'vitepress'
 
+// =============================================================================
+// Live Website / Demo URL
+// Update this single variable whenever the URL changes:
+// =============================================================================
+const DEMO_URL = 'https://flavor-fusion.196102.xyz'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // head: [
-  //   ['link', {
-  //     rel: 'stylesheet',
-  //     href: 'https://www.cdnfonts.com/css/optimistic'
-  //   }]
-  // ],
+  vite: {
+    plugins: [
+      {
+        name: 'replace-demo-url',
+        enforce: 'pre',
+        transform(code, id) {
+          if (id.split('?')[0].endsWith('.md')) {
+            return code
+              .replaceAll('__DEMO_URL__', DEMO_URL)
+              .replaceAll('{{DEMO_URL}}', DEMO_URL)
+              .replaceAll('https://foodapp.antoniomucollari.com/', DEMO_URL)
+              .replaceAll('https://foodapp.antoniomucollari.com', DEMO_URL)
+          }
+        }
+      }
+    ]
+  },
   title: "FoodApp docs",
   description: "A VitePress Site",
   ignoreDeadLinks: true,
   themeConfig: {
+    demoUrl: DEMO_URL,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

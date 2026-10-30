@@ -18,7 +18,7 @@ hero:
 
     - theme: alt
       text: Demo website
-      link: https://foodapp.antoniomucollari.com/
+      link: __DEMO_URL__
 
 features:
   - title: Load tested customer journey
